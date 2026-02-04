@@ -9,7 +9,8 @@ import NotFound from "@/pages/not-found";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/Bewerbungsseite/" component={Home} />
+      <Route path="/Bewerbungsseite/:rest*" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );

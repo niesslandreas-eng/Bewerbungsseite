@@ -55,7 +55,7 @@ export function Hero() {
             <div className="relative aspect-[4/5] md:aspect-square w-full max-w-md mx-auto overflow-hidden rounded-2xl shadow-2xl">
               <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10"></div>
               <img 
-                src="/profile-hero.jpg" 
+                src="/Bewerbungsseite/profile-hero.jpg"
                 alt="Andreas Nießl" 
                 className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
               />
